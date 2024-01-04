@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 15px 10px;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header {
+    background-color: rgb(36, 32, 32);
+    color: #fff;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.header .container {
+    background-color: rgb(36, 32, 32);
+    text-align: center;
+    width: 60%;
+    height: 60%    
+}
+
+.header .paragraph {
+    background-color: rgb(36, 32, 32);
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    text-align: center;
+    width: 45%;
+    height: 60%
+
+}
+
+/*
+.images {
+    max-width: 100%;
+    height: 400px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+*/
+
+.flex-container {
+    min-height: 400px;
+    display: flex;
+    padding: 20px;
+    /*background-color: red;*/
+    align-items: center;
+    justify-content: space-around;
+     /*flex: 5;*/
+     flex-basis: auto;
+     flex-shrink: 3;
+     
+     
+     flex-wrap: wrap;
+    
+}
+
+.item {
+  
+    display: flex;
+    /*flex: 5; */
+    
+    flex-grow: 4;
+    flex-shrink: 3;
+   
+    padding: 30px;
+    box-sizing: border-box;
+    
+       /*
+    width: 250px;
+    flex-shrink: 3;
+    flex-grow: auto;
+    */
+}
+
+.heart {
+    font-size: x-large;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(36, 32, 32);
+    color: white;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;    
+}
+
+.header2 {
+    background-image: url(Images/Moon.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+    background-color: rgb(98, 87, 87);
+    color: #fff;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: left;
+    flex-direction: column;
+
+}
+
+.header2 .container2 {
+    background-color: none;
+    text-align: left;
+    padding-left: 60px;
+    width: 60%;
+    height: 60%    
+}
+
+.header2 .paragraph2 {
+    background-color: none;
+    letter-spacing: 1.5px;
+    line-height: 1.75;
+    padding-left: 60px;
+    text-align: left;
+    width: 65%;
+    height: fit-content
+    
+}
+
+.video {
+    min-height: 550px;
+    
+}
+
+.video-box {
+    min-height: 150px;
+    margin-top: 0px;
+    display: flex;
+    padding: 50px 40px 20px 40px;
+    
+    background-color: rgb(254, 252, 252);
+    align-items: center;
+    justify-content: space-around;
+     /*flex: 5;*/
+    flex-basis: auto;
+    flex-shrink: 3;    
+    flex-wrap: wrap;
+
+}
+
+.tablesection {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 251, 251);
+    padding-bottom: 10px;
+    
+}
+
+table {
+    
+    /*border-collapse: collapse;*/
+    margin: 40px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    font-size: medium;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+tbody:nth-of-type(odd) {
+    background-color: burlywood;
+    color: white;
+}
+
+table {
+    border-bottom: 2px solid #dddd;
+}
+
+
+/*
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+    
+th, td {
+    padding: 1rem;
+}
+
+table tbody tr :nth-of-type(odd) {
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+
+table tbody tr :nth-of-type(odd) {
+    background-color: rgb(80, 70, 70); 
+}
+
+table thead tr {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+    
+table tbody tr {
+    border-bottom: 10px solid #dddd;
+}
+
+table tbody tr :last-of-type {
+    border-bottom: 2px solid #dddd;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+th {
+    background-color: rgb(208, 106, 106);
+}
+*/
+
+.footer2 {
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(36, 32, 32);
+    color: white;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;    
+
+}
+
+/* This part was copied, need to check */
+@media (max-width: 768px) {
+    .header .item {
+      flex-direction: column;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .container .item {
+      display: block;
+      text-align: center;
+    }
+  }
+  
